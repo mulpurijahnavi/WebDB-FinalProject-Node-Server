@@ -24,6 +24,13 @@ const server = http.createServer((req, res) => {
             break;
     }
 
+    const headers = {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "OPTIONS, POST, GET",
+        "Access-Control-Max-Age": 2592000, // 30 days
+        "Content-Type": contentType 
+      };
+
     // readthe file
     fs.readFile(filePath, (err, content) => {
         // err.code
@@ -42,7 +49,7 @@ const server = http.createServer((req, res) => {
             }
         } else {
             //sucess
-            res.writeHead(200, { 'Content-Type': contentType })
+            res.writeHead(200, headers)
             res.end(content, 'utf-8')
         }
     });
