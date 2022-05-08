@@ -5,35 +5,40 @@
       "symbol": "AMZN",
       "price": 2295.45,
       "oneYearRange": "$2,261.62 - $3,773.08",
-      "marketCap": "1.168T"
+      "marketCap": "1.168T",
+      "trending": false
     },
     {
       "name": "Tesla, Inc.",
       "symbol": "TSLA",
       "price": 865.65,
       "oneYearRange": "$546.98 - $1,243.49",
-      "marketCap": "896.822B"
+      "marketCap": "896.822B",
+      "trending": true
     },
     {
       "name": "Alphabet Inc.",
       "symbol": "GOOG",
       "price": 2313.20,
       "oneYearRange": "$2,230.05 - $3,042.00",
-      "marketCap": "1.524T"
+      "marketCap": "1.524T",
+      "trending": false
     },
     {
       "name": "Meta Platforms, Inc.",
       "symbol": "FB",
       "price": 203.77,
       "oneYearRange": "$169.00 - $384.33",
-      "marketCap": "551.467B"
+      "marketCap": "551.467B",
+      "trending": false
     },
     {
       "name": "Microsoft Corporation",
       "symbol": "MSFT",
       "price": 274.73,
       "oneYearRange": "$238.07 - $349.67",
-      "marketCap": "2.055T"
+      "marketCap": "2.055T",
+      "trending": true
     }
   ]
 }
