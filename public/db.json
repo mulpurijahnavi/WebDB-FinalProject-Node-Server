@@ -1,0 +1,39 @@
+{
+  "stocks": [
+    {
+      "name": "Amazon.com, Inc.",
+      "symbol": "AMZN",
+      "price": 2295.45,
+      "oneYearRange": "$2,261.62 - $3,773.08",
+      "marketCap": "1.168T"
+    },
+    {
+      "name": "Tesla, Inc.",
+      "symbol": "TSLA",
+      "price": 865.65,
+      "oneYearRange": "$546.98 - $1,243.49",
+      "marketCap": "896.822B"
+    },
+    {
+      "name": "Alphabet Inc.",
+      "symbol": "GOOG",
+      "price": 2313.20,
+      "oneYearRange": "$2,230.05 - $3,042.00",
+      "marketCap": "1.524T"
+    },
+    {
+      "name": "Meta Platforms, Inc.",
+      "symbol": "FB",
+      "price": 203.77,
+      "oneYearRange": "$169.00 - $384.33",
+      "marketCap": "551.467B"
+    },
+    {
+      "name": "Microsoft Corporation",
+      "symbol": "MSFT",
+      "price": 274.73,
+      "oneYearRange": "$238.07 - $349.67",
+      "marketCap": "2.055T"
+    }
+  ]
+}

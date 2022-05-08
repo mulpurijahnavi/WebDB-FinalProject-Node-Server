@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Assignment-3</title>
+</head>
+
+<body>
+
+    <section id="header">
+        <h1 style="text-align: center; margin-bottom: 0px;">Resume</h1>
+
+        <div id="menu" class="menu">
+            <ul>
+                <li><a href="#blogs">Blogs</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars fa-3x"></i>
+            </a>
+        </div>
+    </section>
+
+
+
+    <section id="firstSection" class="grid-container">
+        <section id="about">
+            <h1>
+                <div class="myheader">About Me </div>
+            </h1>
+            <img src="JahnaviMulpuri.jpg" alt="img" width=100px>
+            <div class="txt">Jahnavi Mulpuri
+                <p> Email : jmulp1@unh.newhaven.edu </p>
+                <p> This is About Me Section!!! </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. </p>
+            </div>
+
+        </section>
+        <section id="education">
+            <h1>
+                <div class="myheader">Education</div>
+            </h1>
+            <div class="txt">Grad : University of new haven
+                <p> Under Grad : GEC</p>
+            </div>
+        </section>
+    </section>
+
+    <section id="secondSection" class="grid-container">
+        <section id="projects">
+            <h1>
+                <div class="myheader">Projects</div>
+            </h1>
+            <div class="txt">These are the projects!!!!!!!!!!!!!!!!!!!!!!!
+                <p> Project1 : hjhkhgjgghj</p>
+            </div>
+        </section>
+        <section id="experience">
+            <h1>
+                <div class="myheader">Experience</div>
+            </h1>
+            <div class="txt">I have one and half years of experience as an associate consultant </div>
+        </section>
+        <section id="skills">
+            <h1>
+                <div class="myheader">Technical Skills</div>
+            </h1>
+            <div class="txt">guhduidcfvgbhjkfghjcvbghnjmdfghjkfvgbhjk </div>
+        </section>
+    </section>
+    <section id="blogs">
+        <h1>
+            <div class="myheader">Blogs</div>
+        </h1>
+        <div class="txt">Blog1 : Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed ligula consequat,
+            pretium lorem at, mattis urna. Nunc euismod lectus vehicula, blandit eros non, semper dolor. Proin vel velit
+            mi.
+            <p>Blog2 : Donec a lectus quis massa vulputate egestas dapibus vitae purus. Proin commodo porta ex, non
+                eleifend metus tincidunt a. Duis at porta augue.</p>
+        </div>
+    </section>
+    <section id="footer">
+        <img src="Facebook.png" alt="img" width="50px">
+        <img src="Twitter.png" alt="img" width="50px">
+        <img src="LinkedIn.png" alt="img" width="50px">
+    </section>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("menu");
+            if (x.className === "menu") {
+                x.className += " responsive";
+            } else {
+                x.className = "menu";
+            }
+        }
+    </script>
+</body>
+
+</html>
