@@ -1,7 +1,7 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "CSCI 6655 Final Project Back-end code",
+  "description": "CSCI-6655 Final Project Back-end code",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index",
